@@ -410,7 +410,7 @@ namespace MyProject
                 Random r = new Random();
                 int dice = r.Next(5) + 1; // dice에는 1~6이 들어간다.
 
-                if (dice == 1 || dice == 3 || dice == 5)
+                if (dice % 2 == 1)
                 {
                     Console.WriteLine("Odd");
                     if (choose == "Odd" || choose == "odd")
@@ -421,7 +421,7 @@ namespace MyProject
                         break;
                     }
                 }
-                else if (dice == 2 || dice == 4 || dice == 6)
+                else if (dice % 2 == 0)
                 {
                     Console.WriteLine("Even");
                     if (choose == "Even" || choose == "even")
