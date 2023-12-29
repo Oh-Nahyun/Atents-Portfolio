@@ -25,6 +25,8 @@ namespace MyProject
     {
         static void Main(string[] args)
         {
+            ///231228
+
             /// 231227 실습 코드 풀이
             //RunHighLowDice();
             //RunOddEvenDice();
